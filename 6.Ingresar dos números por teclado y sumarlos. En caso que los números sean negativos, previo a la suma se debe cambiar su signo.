@@ -1,0 +1,16 @@
+Algoritmo suma_con_signo
+    // Ingresa dos números, cambia su signo si son negativos, y luego los suma//
+    Definir a, b, suma Como Entero
+    Escribir "Ingrese el primer número:"
+    Leer a
+    Escribir "Ingrese el segundo número:"
+    Leer b
+    Si a < 0 Entonces
+        a <- a * (-1)
+    FinSi
+    Si b < 0 Entonces
+        b <- b * (-1)
+    FinSi
+    suma <- a + b
+    Escribir "La suma de los números es: ", suma
+FinAlgoritmo
