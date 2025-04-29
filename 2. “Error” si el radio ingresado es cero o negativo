@@ -1,9 +1,8 @@
-//Mostrar “Error” si el radio es cero o negativo//
-Inicio
+  // Muestra "Error" si el radio ingresado es cero o negativo//
+    Definir radio Como Real
     Escribir "Ingrese el radio de la circunferencia:"
     Leer radio
-
     Si radio <= 0 Entonces
         Escribir "Error: El radio no puede ser cero o negativo"
     FinSi
-Fin
+FinAlgoritmo
