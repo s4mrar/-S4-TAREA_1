@@ -1,0 +1,20 @@
+Algoritmo presentar_menor
+    // Ingresa tres números y presenta el menor
+    Definir a, b, c, menor Como Entero
+    Escribir "Ingrese el primer número:"
+    Leer a
+    Escribir "Ingrese el segundo número:"
+    Leer b
+    Escribir "Ingrese el tercer número:"
+    Leer c
+    Si a <= b y a <= c Entonces
+        menor <- a
+    Sino
+        Si b <= a y b <= c Entonces
+            menor <- b
+        Sino
+            menor <- c
+        FinSi
+    FinSi
+    Escribir "El número menor es: ", menor
+FinAlgoritmo
