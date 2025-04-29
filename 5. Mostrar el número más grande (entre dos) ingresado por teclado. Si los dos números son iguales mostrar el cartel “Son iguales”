@@ -1,0 +1,17 @@
+Algoritmo mayor_de_dos
+    // Muestra el número mayor entre dos. Si son iguales, muestra un mensaje.
+    Definir a, b Como Entero
+    Escribir "Ingrese el primer número:"
+    Leer a
+    Escribir "Ingrese el segundo número:"
+    Leer b
+    Si a > b Entonces
+        Escribir "El número mayor es: ", a
+    Sino
+        Si b > a Entonces
+            Escribir "El número mayor es: ", b
+        Sino
+            Escribir "Son iguales"
+        FinSi
+    FinSi
+FinAlgoritmo
