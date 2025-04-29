@@ -1,0 +1,15 @@
+Algoritmo evaluar_socio
+// Un socio es VIP si tiene categoría A o si su antigüedad está entre 10 y 20 años//
+    Definir categoria Como Caracter
+    Definir antiguedad Como Entero
+    Escribir "Ingrese la categoría del socio (A, B o C):"
+    Leer categoria
+    Escribir "Ingrese los años de antigüedad del socio:"
+    Leer antiguedad
+    categoria <- Mayusculas(categoria)
+    Si categoria = "A" O (antiguedad >= 10 Y antiguedad <= 20) Entonces
+        Escribir "Socio vip"
+    Sino
+        Escribir "No es socio vip"
+    FinSi
+FinAlgoritmo
