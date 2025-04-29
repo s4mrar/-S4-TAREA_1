@@ -1,3 +1,4 @@
+//Mostrar el perímetro de una circunferencia si el radio es mayor a cero//
 Inicio
     Escribir "Ingrese el radio de la circunferencia:"
     Leer radio
