@@ -1,0 +1,22 @@
+Algoritmo Mayor_de_tres_numeros
+    Escribir "Teclea el primer numero"
+    Leer n1
+    Escribir "Teclea el segundo numero"
+    Leer n2
+    Escribir "Teclea el tercer numero"
+    Leer n3
+
+    Si n1 > n2 Entonces
+        Si n1 > n3 Entonces
+            Escribir "El mayor es el ", n1
+        Sino
+            Escribir "El mayor es el ", n3
+        FinSi
+    Sino
+        Si n2 > n3 Entonces
+            Escribir "El mayor es el ", n2
+        Sino
+            Escribir "El mayor es el ", n3
+        FinSi
+    FinSi
+FinAlgoritmo
