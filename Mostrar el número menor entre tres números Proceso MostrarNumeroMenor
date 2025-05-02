@@ -1,0 +1,23 @@
+// Ejercicio 4: Mostrar el número menor entre tres números
+Proceso MostrarNumeroMenor
+    Definir num1, num2, num3, menor Como Real
+
+    Escribir "Ingrese el primer número:"
+    Leer num1
+    Escribir "Ingrese el segundo número:"
+    Leer num2
+    Escribir "Ingrese el tercer número:"
+    Leer num3
+
+    menor <- num1
+
+    Si num2 < menor Entonces
+        menor <- num2
+    FinSi
+
+    Si num3 < menor Entonces
+        menor <- num3
+    FinSi
+
+    Escribir "El número menor es: ", menor
+FinProceso
