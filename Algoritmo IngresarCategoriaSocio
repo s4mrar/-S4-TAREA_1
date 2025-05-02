@@ -1,0 +1,6 @@
+Algoritmo IngresarCategoriaSocio
+    Definir categoria Como Cadena
+    Escribir "Ingrese la categoría del socio (Ej: Infantil, Juvenil, Adulto, Senior): "
+    Leer categoria
+    Escribir "La categoría ingresada es: ", categoria
+FinProceso
